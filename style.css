@@ -1,0 +1,238 @@
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(
+		to right,
+		rgba(231, 51, 51, 0.911),
+		rgb(0, 90, 226)
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: poppins, sans-serif;
+}
+
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.274);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+nav h1 {
+	color: white;
+	margin-left: 20px;
+	font-size: 24px;
+	cursor: pointer;
+}
+nav h1:hover {
+	color: rgb(233, 79, 79);
+	transition: color 0.3s ease;
+	font-size: 26px;
+	transition-delay: 10ms;
+}
+
+footer {
+	width: 100%;
+	height: 15px;
+	background-color: rgba(0, 0, 0, 0.274);
+	border-radius: 5px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	color: white;
+	font-size: 10px;
+}
+
+.blog-content {
+	margin: auto;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.089);
+	border-radius: 10px;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 120px;
+}
+.post-list {
+	background-color: rgba(255, 255, 255, 0.932);
+	margin-top: 20px;
+	width: 20%;
+	margin-left: 10px;
+	border-radius: 10px;
+	flex-grow: 0;
+}
+
+.post-view {
+	background-color: rgba(255, 255, 255, 0.932);
+	margin-top: 20px;
+	margin-left: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	flex-grow: 1;
+	margin-right: 10px;
+}
+
+.listandview {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100%;
+}
+
+.post-editor {
+	background-color: rgba(255, 255, 255, 0.664);
+	margin-top: 50px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	width: 20%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+.post-editor h2 {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+.post-editor form {
+	display: flex;
+	flex-direction: column;
+}
+.post-editor label {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.post-editor input {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+	width: 90%;
+}
+
+.post-editor input:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.post-editor textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+	width: 80%;
+}
+
+.post-editor button {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(0, 90, 226, 0.8);
+	color: white;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.post-editor button:hover {
+	background-color: rgb(89, 18, 255);
+	transition: background-color 0.3s ease;
+	color: white;
+}
+
+.post-list ul {
+	list-style-type: none;
+	padding: 0;
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+
+.post-list li {
+  padding: 0px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 5px;
+}
+.post-list li:hover {
+  background-color: rgba(0, 90, 226, 0.2);
+  transition: background-color 0.3s ease;
+}
+.post-list h1 {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin: 10px 0;
+}
+.post-list h1:hover {
+  color: rgb(233, 79, 79);
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+
+.blog-post-h1 {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+}
+
+.post-view img {
+  object-fit: contain;
+  width: 30%;
+  height: 80%;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.post-view h2 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.post-view p {
+  font-size: 12px;
+  color: black;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.post-view {
+  background-color: rgba(255, 255, 255, 0.664);
+}
+.post-list {
+  background-color: rgba(255, 255, 255, 0.664);
+}
+
