@@ -236,3 +236,27 @@ footer p {
   background-color: rgba(255, 255, 255, 0.664);
 }
 
+#buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 10%;
+
+}
+#editButton {
+	color: rgba(255, 255, 255, 0.808);
+	background-color: rgb(0, 90, 226);
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#deleteButton {
+	color: rgba(255, 255, 255, 0.808);
+	background-color: rgb(233, 79, 79);
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
