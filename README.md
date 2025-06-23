@@ -1,7 +1,7 @@
 
-# FoodieFetch SPA
+# BlogFest
 
-**FoodieFetch** is a lightweight Single-Page Application (SPA) built with vanilla **HTML**, **CSS**, and **JavaScript**, backed by a mock REST API provided by **json-server**. Users can view, create, edit, and delete blog-style posts without page reloads, with all data persisted in a local `db.json`.
+**BlogFest** is a lightweight Single-Page Application (SPA) built with vanilla **HTML**, **CSS**, and **JavaScript**, backed by a mock REST API provided by **json-server**. Users can view, create, edit, and delete blog-style posts without page reloads, with all data persisted in a local `db.json`.
 
 ---
 
